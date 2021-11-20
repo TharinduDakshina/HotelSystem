@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="adminContext" layoutX="-1.0" prefHeight="483.0" prefWidth="1027.0" style="-fx-background-color: #d2dae2;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminBordFormController">
+   <children>
+      <AnchorPane layoutX="-1.0" prefHeight="483.0" prefWidth="244.0" style="-fx-background-color: #546de5;">
+         <children>
+            <Label alignment="CENTER" layoutX="12.0" layoutY="14.0" prefHeight="75.0" prefWidth="220.0" style="-fx-border-color: black;" text="Admin">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            <Separator layoutX="76.0" layoutY="70.0" prefHeight="0.0" prefWidth="86.0" style="-fx-background-color: black;" />
+            <JFXButton alignment="CENTER" layoutX="21.0" layoutY="213.0" onAction="#roomsOnAction" prefHeight="39.0" prefWidth="203.0" style="-fx-background-color: #303952;" text="Rooms" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <JFXButton alignment="CENTER" layoutX="21.0" layoutY="272.0" onAction="#changeMealPackege" prefHeight="39.0" prefWidth="203.0" style="-fx-background-color: #303952;" text="Meal Packeage" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <JFXButton alignment="CENTER" layoutX="21.0" layoutY="340.0" onAction="#incomeReport" prefHeight="39.0" prefWidth="203.0" style="-fx-background-color: #303952;" text="Income Report" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <JFXButton alignment="CENTER" buttonType="RAISED" layoutX="21.0" layoutY="394.0" onAction="#btnBackToWelcomeForm" prefHeight="39.0" prefWidth="203.0" style="-fx-background-color: #303952;" text="&lt;--Home" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <JFXButton alignment="CENTER" layoutX="21.0" layoutY="158.0" onAction="#searchFacebook" prefHeight="39.0" prefWidth="203.0" style="-fx-background-color: #303952;" text="Search in Facebook" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="changeWindowContext" layoutX="246.0" layoutY="2.0" prefHeight="478.0" prefWidth="519.0" style="-fx-border-color: black;">
+         <children>
+            <ImageView fitHeight="472.0" fitWidth="489.0" layoutX="35.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/packege.jpg" />
+               </image>
+            </ImageView>
+            <TextArea layoutX="2.0" layoutY="2.0" prefHeight="472.0" prefWidth="70.0" style="-fx-background-color: white;" text="&#10;&#10;&#10;P&#10;A&#10;C&#10;K&#10;A&#10;G&#10;E&#10;S">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </TextArea>
+         </children></AnchorPane>
+      <AnchorPane layoutX="770.0" layoutY="3.0" prefHeight="478.0" prefWidth="254.0" style="-fx-background-color: #6c5ce7;">
+         <children>
+            <Label alignment="CENTER" layoutX="17.0" layoutY="14.0" prefHeight="44.0" prefWidth="220.0" text="Rooms">
+               <font>
+                  <Font name="Papyrus" size="34.0" />
+               </font>
+            </Label>
+            <Line endX="40.0" layoutX="157.0" layoutY="58.0" startX="-100.0" />
+            <Label alignment="CENTER" layoutX="9.0" layoutY="82.0" prefHeight="44.0" prefWidth="124.0" text="Snigle Rooms">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="9.0" layoutY="144.0" prefHeight="44.0" prefWidth="124.0" text="Double Rooms">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="15.0" layoutY="201.0" prefHeight="44.0" prefWidth="124.0" text="Triple Rooms">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="15.0" layoutY="262.0" prefHeight="44.0" prefWidth="124.0" text="Modfy Rooms">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="122.0" layoutY="82.0" prefHeight="44.0" prefWidth="124.0" text="- 15">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="124.0" layoutY="145.0" prefHeight="44.0" prefWidth="124.0" text="-  5">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="124.0" layoutY="201.0" prefHeight="44.0" prefWidth="124.0" text="-  5">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="125.0" layoutY="264.0" prefHeight="44.0" prefWidth="124.0" text="-  1">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

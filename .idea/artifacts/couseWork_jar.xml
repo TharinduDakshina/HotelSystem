@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="couseWork:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/couseWork_jar</output-path>
+    <root id="archive" name="couseWork.jar">
+      <element id="module-output" name="couseWork" />
+      <element id="library" level="project" name="jfoenix-8.0.8" />
+      <element id="extracted-dir" path="F:/Softwares/JAVA/Libries/jfoenix-8.0.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/lib/javafx.graphics.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/lib/javafx.web.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

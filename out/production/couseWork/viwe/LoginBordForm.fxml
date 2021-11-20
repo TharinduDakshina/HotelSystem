@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="loginPageContent" prefHeight="617.0" prefWidth="926.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginBordFormController">
+   <children>
+      <ImageView fitHeight="618.0" fitWidth="957.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/stunning-sunset-in-thail-across-ocean-wallpaper-preview.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="70.0" layoutY="61.0" prefHeight="169.0" prefWidth="751.0" text="𝓦𝓔𝓛𝓒𝓞𝓜𝓔 𝓣𝓞 𝓑𝓛𝓤𝓔 𝓞𝓒𝓔𝓐𝓝" textFill="#3c330c">
+         <font>
+            <Font name="Jokerman" size="50.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="218.0" layoutY="333.0" onAction="#adminOnAction" opacity="0.89" prefHeight="67.0" prefWidth="125.0" style="-fx-background-color: #bdc3c7;" text="Admin">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></JFXButton>
+      <JFXButton layoutX="533.0" layoutY="333.0" onAction="#receptionistOnAction" opacity="0.88" prefHeight="67.0" prefWidth="125.0" style="-fx-background-color: #bdc3c7;" text="Receptionist">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></JFXButton>
+   </children>
+</AnchorPane>
